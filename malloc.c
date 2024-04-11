@@ -13,7 +13,7 @@ int main(){
   for(i=0;i<num_integers;i++) {
     printf("Enter an integer for element %d: ",i+1);
     scanf("%d",ptr+i);
-  }
+  }+
 
   printf("\nThe entered integers are: ");
   for(i=0;i<num_integers;i++) {
